@@ -5,4 +5,4 @@ $domainObj = [System.DirectoryServices.ActiveDirectory.Domain]::GetCurrentDomain
 $PDC = $domainObj.PdcRoleOwner.Name
 
 # Print the $PDC variable
-$PDC
+Write-Host "PdcRoleOwner: $PDC"
