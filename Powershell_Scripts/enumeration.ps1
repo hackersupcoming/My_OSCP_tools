@@ -15,6 +15,6 @@ Write-Host "PdcRoleOwner: $PDC"
 $distinguishedName = ([adsi]'').distinguishedName
 Write-Host "Distinguished Name: $distinguishedName"
 
-# Create the full LDAP path
-$ldapPath = "LDAP://" + $distinguishedName
+# Construct the full LDAP path
+$ldapPath = "LDAP://$PDC/$distinguishedName"
 Write-Host "Full LDAP Path: $ldapPath"
