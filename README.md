@@ -1,9 +1,5 @@
 # My_OSCP_tools
 
-Here's a sample description for your GitHub repository:
-
----
-
 # Pentesting Binaries & Payloads Collection
 
 This repository contains a collection of pentesting binaries and payloads that can be used for ethical hacking, penetration testing, and security research. It includes various tools and scripts for testing network security, exploiting vulnerabilities, and assessing the overall strength of systems.
